@@ -12,9 +12,9 @@
 include "config.php";
 
 
-define('API_KEY','توکن ربات');
-$admin = "آیدی عددی ادمین";
-$channeluse = "-1001086770485";
+define('API_KEY','455923151:AAGJdyp-NWBjdWwf-qaXE_FFcEGvj2V6Zoo');
+$admin = "462092087";
+$channeluse = "-1001138985158";
 
 $update = json_decode(file_get_contents('php://input'));
 $txt = $update->message->text;
